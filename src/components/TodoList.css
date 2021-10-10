@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.heading {
+  color: greenyellow;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main-div {
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+
+.eachItem {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid goldenrod;
+  background-color: navy;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.eachItem:hover {
+  background-color: rgb(75, 58, 153);
+}
+
+.addItems {
+  display: flex;
+  justify-content: center;
+}
+.form-control {
+  border: 4px solid plum;
+}
+.form-control:focus {
+  background-color: yellow;
+}
+
+.edit {
+  margin: 10px;
+}
+.edit:hover {
+  color: greenyellow;
+  transform: translate(2px, 2px);
+  transition-duration: 0.1s;
+}
+.delete:hover {
+  color: red;
+  transform: translate(3px, 3px);
+  transition-duration: 0.1s;
+}
+.plus {
+  margin: 12px;
+  margin-top: 15px;
+}
+.plus:hover {
+  color: yellow;
+  transform: scale(2);
+  transition-duration: 0.1s;
+}
+
+.remove-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
